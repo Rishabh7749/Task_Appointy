@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+body { 
+  margin: 15px;
+  font-family: arial;
+  color:grey;
+}
+
+.header {
+  overflow: hidden;
+  background-color:white;
+  padding: 30px 10px;
+  position: relative;
+  
+  border-bottom-color: white;
+  border-bottom-width: 10px;
+
+}
+
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+
+
+.header-right {
+  float: right;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+
+}
+.flex-container > div {
+  background-color: white;
+  width: 1000px;
+  margin: 60px;
+  color:black;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">appointy</a>
+  <div class="header-right">
+    <a>Home</a>
+    <a>Customers</a>
+    <a>Contact Us</a>
+    <a>Enterprise</a>
+    <a>Pricing</a>
+    <a>Login</a>
+    <a class="active" href="#home">Sign-Up</a>
+  </div>
+</div>
+<div id="n1" class="flex-container">
+  <div><span><b><div>Education scheduling software</div>
+       <div>to reduce admin work, increase</div>
+       <div>efficiency, and deliver better results</div></b>
+       <br>
+       <span style="color:grey; font-size: 18px; line-height: 30px"><div>Save valuable teaching time with easy online appoiments, class</div>
+       <div>scheduling, student management, payments, automated reminders</div>
+       <div>and web conferencing</div></span></span>
+       <br>
+       <div class="header" style="background-color: white; border: none;"><span class="header-right" style="float: left"><a class="active" href="#home">Get Started Now</a></span></div>
+       <div style="font-size: 11px; line-height: 11px;">No credit card required! Our free plan is free forever. </div>
+</div>
+  <div><img src="task.jpg" width="700px" height="300px"></div>
+</div><br><br>
+<div align="center" style="font-size: 20px"><p style="color: black; font-size: 45px;"><b>academic institutions</b></p>
+<p>Appointy can help business and instutions in the education, advertising and non-profit domain schedule 1:1</p>
+<p>sessions, round-robin meetings, and classes</p></div>
+
+</body>
+</html>
